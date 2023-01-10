@@ -1,0 +1,38 @@
+/*
+caixa do texto medida em altura (height) e largura (width)
+linha interna colada na caixa = borda (border)
+aumentar o espaço entre a caixa e a borda acolchoamento, preenchimento (padding)
+espaço externo a borda, é a margem (margin)
+linha externa, contorno, traçado (outline)
+
+tipos de caixa
+--> box-level
+	começa sempre na linha inferior
+	ocupa a largura total da viewport
+	<div>
+	<h1>-<h6>
+	<p>
+	<main>
+	<header>
+	<nav>
+	<article>
+	<aside>
+	<footer>
+	<form>
+	<video>
+--> inline level
+	começa do lado do anterior, na mesma linha
+	não quebra a linha
+	largura do tamanho do conteúdo
+	<span>
+	<a>
+	<code>
+	<small>
+	<em>
+	<strong>
+	<sup>-<sub>
+	<label>
+	<button>
+	<input>
+	<select>
+*/

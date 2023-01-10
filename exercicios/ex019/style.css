@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/*
+id = # o item que tiver o id x, terá o estilo do id x, exclusivo para ele
+class = . todos os itens que tiverem a classe y, terão o estilo da classe y
+*/
+body{
+    background-color: rgb(205, 255, 203);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    color: rgb(5, 100, 2);
+}
+h1#principal{
+    color: white;
+    background-color: rgb(5, 100, 2);
+    text-align: center;
+    font-size: 3em;
+}
+h2{
+    color: rgb(31, 136, 27);
+}
+
+.basico{
+    color: rgb(31, 136, 27);
+}
+.intermediario{
+    color: rgb(255, 221, 2);
+}
+.avancado{
+    color: rgb(255, 0, 0);
+}
+.destaque{
+    background-color: rgba(205, 180, 23, 0.551);
+}

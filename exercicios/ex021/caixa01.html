@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas</title>
+    <style>
+        h1{
+            display: block;
+            /*pode ser inline, inline-block*/
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+            border: 10px solid yellowgreen;
+        
+            /*segue o sentido horário: top -> right -> bottom -> left
+            se todas forem iguais, pode colocar só um valor, e ele atribui a todos
+            dois valores ele atribui a todos intercalados, ex.:
+            10px 20px ele atribui top 10 right 20 bottom 10 left 20*/
+            padding: 10px 20px 10px 20px;
+            /*auto sózinho centraliza, na direita e esquerda centraliza,
+            deixando vc personalizar tob & bottom*/
+            margin: 20px auto 40px auto;
+
+            outline: 5px dashed greenyellow;
+        }
+        a{
+            border: 10px groove yellowgreen;
+        
+            padding: 10px;
+        
+            margin: 10px 10px 10px 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de box-level</h1>
+    <p>Parágrafos também são exemplos de box level, mas os <a href="#">Links são exemplos de inline-level</a>. Vamos ver como tudo isso funciona.</p>
+</body>
+</html>

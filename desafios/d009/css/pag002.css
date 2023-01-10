@@ -1,0 +1,22 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#cacilda{
+    position: fixed;
+    top: 55%;
+    left: 47%;
+    color: white;
+}
+#i{
+    width: 560px;
+}
+#v{
+    width: 60px;
+    position: fixed;
+    top: 60%;
+    left: 50%;
+}

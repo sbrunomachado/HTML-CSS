@@ -1,0 +1,43 @@
+circulo cromático --> 12 cores
+
+cores primárias --> amarelo vermelho e azul
+
+cores secundárias --> verde laranja e roxo
+
+cores terceárias --> intermediárias entre as primárias e secundárias, seus nomes são formados, primeiro pela cor primária mais próxima, e a secundária mais próxima, são cores pastel
+
+amarelo-esverdeado	| 	amarelo-alaranjado
+vermmelho-alaranjado	| 	vermelho aroxeado
+azul-esverdeado		| 	azul aroxeado
+
+cores quentes: amarelo, vermelho, laranja, vermelho aroxeado
+cores frias:   azul, verde, azul arroxeado
+
+
+paleta de cores --> 3 a 5 cores + branco e preto
+
+Cores complementares, são as cores que mais contrastam, a oposta/inversa dela
+
+Cores análogas, pouco contraste, similaridade, cores vizinhas
+
+Cores análogas relacionadas, cores vizinhas, pula uma e seleciona a outra (não importa o lado) = 3 cores
+
+Cores intercaladas, uma referencia, pula uma, escolhe outra, pula uma, escolhe outra, forma uma paleta mais dura
+
+Cores triádicas, pula sempre 3 cores para escolher a próxima após a referência = paleta de 3 cores
+
+Cores em Quadrado, pula sempre 2 cores para escolher a próxima após a referência = paleta de 4 cores
+
+Cores terádicas, duas cores, + suas opostas = paleta de 4 cores
+
+Monocromia, escolhe uma cor, altera saturação e luminosidade, gera degradê = paleta de 4 cores
+
+cores análogas + complementar = paleta de 4 cores
+
+
+ferramentas que auziliam criar paletas de cores:
+color.adobe.com
+paletton.com
+coolors.co
+
+CollorZilla --> extensão de navegador para pegar cor de um site

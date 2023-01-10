@@ -1,0 +1,3 @@
+icon archive
+favicon.cc -> desenhar seu icone
+favicon.io -> fazer icone como se fosse o bubble
