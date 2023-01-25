@@ -26,12 +26,12 @@ span#burger{
     font-size: 2em;
 }
 menu {
-    background-color: rgb(116, 24, 201);
+    background-color: rgb(146, 59, 227);
     display: none;
 }
 menu li{
     list-style-type: none;
-    width: 100vw;
+    display: block;
     background-color: rgb(111, 22, 194);
     padding: 10px;
     text-align: center;
