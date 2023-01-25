@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <span class="material-symbols-rounded" id="burger" onclick="clickMenu()">arrow_drop_down</span>
+        <menu id="items">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque culpa provident obcaecati inventore quidem. Officia, explicabo tempore qui aut aliquam distinctio quis error voluptate, dignissimos ullam corrupti minus quia quod.</span><span>Libero necessitatibus omnis veniam praesentium quidem eos officiis esse, provident quae? In et similique totam maiores modi, cumque laborum ex nihil. Optio inventore eligendi facere sapiente non ut. Sequi, reiciendis?</span><span>Fugiat delectus et voluptatem aspernatur a eum, iure aliquam omnis totam quo deleniti perferendis cupiditate impedit doloribus ipsa laudantium commodi ex quod? Quas recusandae magni natus placeat. Molestias, alias labore.</span></p>
+            <p><span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam maxime odit quia possimus, eum fugit labore cupiditate consequuntur accusantium, laudantium quas corporis culpa a. Placeat non deserunt laudantium ipsam officiis?</span><span>Modi iste cum, doloremque temporibus animi dicta quibusdam perferendis debitis corrupti repellendus. Quae, officia nemo atque fugiat porro quas consequuntur libero eius ut possimus, odio iusto eos nostrum commodi ipsa.</span><span>Quas esse dolorem, doloribus sequi magni cupiditate laudantium! Optio deserunt, assumenda explicabo nobis esse id quidem facere soluta dicta hic? Nemo temporibus atque facere non optio accusamus ducimus, in totam!</span></p>
+            <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quaerat minima dolores quam. Suscipit sed mollitia animi placeat earum? Facilis id saepe amet quas totam officia adipisci aliquam rem nesciunt?</span><span>Unde ipsam vel sint, reprehenderit delectus id rerum consectetur nulla aspernatur. Molestias exercitationem eum qui labore sed quibusdam ipsa vitae fugiat libero eius. Reprehenderit et distinctio velit officiis dolores ad?</span><span>Modi neque pariatur et doloremque dolores magnam ab iste magni, totam porro dignissimos consequatur voluptates tempore incidunt voluptas fuga non numquam cum dolor nobis hic debitis! At libero natus dolore.</span></p>
+            <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque molestiae perferendis quaerat vero ullam necessitatibus in labore ex, voluptatem voluptates animi provident exercitationem assumenda recusandae iure eos nobis perspiciatis autem.</span><span>Optio, iusto quas excepturi consectetur sequi incidunt. Mollitia possimus enim eveniet, sequi ipsa quas dolorum similique non corporis molestiae inventore maxime, expedita architecto eaque, nesciunt fuga cumque excepturi temporibus reiciendis.</span><span>Saepe odio rem nulla voluptate aperiam rerum modi eum voluptatum quisquam, distinctio, officia totam atque cupiditate ipsum accusamus laudantium aliquid? Repellat voluptate, assumenda hic quisquam enim ea pariatur repudiandae est!</span></p>
+            <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, quis ipsa ut rem dignissimos sit maiores, odit labore minus quaerat earum. Corrupti illo quas aliquam laboriosam mollitia odit excepturi soluta.</span><span>Earum nesciunt quisquam incidunt quam eaque aperiam assumenda ipsum repudiandae, provident voluptatem. Architecto, officiis. Debitis odit magni, ipsa esse corporis ut inventore sit perspiciatis fuga eveniet necessitatibus ea illum perferendis.</span><span>Dolor ea, cum itaque aut perferendis repellat iure perspiciatis sit aperiam rem quo quam nisi tempore velit corrupti unde ex doloremque! Voluptatibus, aperiam ipsam? Id facere vitae obcaecati nulla doloremque!</span></p>
+        </article>
+    </main>
+    <script>
+        function clickMenu(){
+            if(items.style.display == 'block'){
+                items.style.display = 'none'
+            }
+            else{
+                items.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
